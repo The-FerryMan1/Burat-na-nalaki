@@ -1,0 +1,86 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.wrapper{
+    height: 100dvh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.salawal{
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.salawal > .bayag{
+    background-color: rgb(159, 93, 93);
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 45% 45% 0 0 ;
+    bottom: 0%;
+    transition: all;
+}
+.salawal > .itlog1{
+    background-color: rgb(159, 93, 93);
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        transform: translateX(-50px);
+        bottom: 0%;
+}
+.salawal > .itlog2{
+    background-color: rgb(159, 93, 93);
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    transform: translateX(50px);
+    bottom: 0%;
+}
+
+.pangBomba{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 70%;
+    top: 85%;
+}
+.pangBomba > .pusher{
+    transition: all;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(0px);
+}
+
+.pusher > .horizontal{
+    width: 50px;
+    height: 10px;
+    background: gold;
+}
+.pusher > .vertical{
+    width: 10px;
+    height: 50px;
+    background: gold;
+}
+
+.pangBomba>.katawab {
+    position: absolute;
+    background: red;
+    width: 80px;
+    height: 80px;
+    transform: translateY(70px);
+}
